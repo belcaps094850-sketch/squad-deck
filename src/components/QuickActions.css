@@ -1,0 +1,23 @@
+.quick-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.qa-btn {
+  background: #fff;
+  border: 1px solid #0057b8;
+  color: #0057b8;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.qa-btn:hover {
+  background: #0057b8;
+  color: #fff;
+}

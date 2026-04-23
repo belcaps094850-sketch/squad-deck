@@ -1,0 +1,78 @@
+.profile-picker {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+
+.picker-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.picker-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 0.5rem;
+}
+
+.picker-header p {
+  color: #555;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.role-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 540px;
+}
+
+.role-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.role-card:hover {
+  border-color: #0057b8;
+}
+
+.role-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 2.5rem;
+  text-align: center;
+}
+
+.role-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.role-info strong {
+  font-size: 1rem;
+  color: #111;
+}
+
+.role-desc {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}

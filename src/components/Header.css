@@ -1,0 +1,83 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 0 1.5rem;
+  height: 52px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.app-logo {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0057b8;
+  white-space: nowrap;
+}
+
+.header-divider {
+  color: #ccc;
+}
+
+.header-role {
+  font-size: 0.9rem;
+  color: #333;
+  white-space: nowrap;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.alert-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.alert-badge {
+  font-size: 0.73rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge-red    { background: #fde8e8; color: #b91c1c; border: 1px solid #f5c6c6; }
+.badge-yellow { background: #fef9e6; color: #92400e; border: 1px solid #f5dea3; }
+.badge-blue   { background: #e8f0fe; color: #1d4ed8; border: 1px solid #c3d3f7; }
+
+.switch-role-btn {
+  background: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color: #444;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.switch-role-btn:hover {
+  border-color: #0057b8;
+  color: #0057b8;
+}
